@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>FitTrackPro</title>
+    <link rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="../Index/index.html"><img src="../images/logo.png" style="width: 120px; height: 72px;"></a>
+        <ul class="nav-rechts">
+            <li class="nav-item dropdown"><a href="../Trainingsplaene/trainingsplaene.html" style="color: white; text-decoration: none;" onmouseover="this.style.color='rgb(170,202,215)';" onmouseleave="this.style.color='white';">
+            Trainingspläne</a>
+            <div class="dropdown-content">
+                <a href="../Trainingsplaene/ober_unter_koerper.html">Ober-Unter-Körper</a>
+                <a href="../Trainingsplaene/push_pull_legs.html">Push-Pull-Legs</a>
+                <a href="../Trainingsplaene/arnold_split.html">Arnold Split</a>
+            </div>
+            </li>
+            <a href="../Kalorienrechner/kalorienrechner.html"><li class="nav-item">Kalorienrechner</li></a>
+            <a href="../Ernaehrungsrechner/ernaehrungstabelle.html"><li class="nav-item">Ernährungstagebuch</li></a>
+            <a href="../Dashboard/dashboard.html"><li class="nav-item">Dashboard</li></a>
+            <li><button class="btn-login" style="margin-top: 17px;" onclick="location.href='../Login/login.html'">Log In</button></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<br><br><br>
+<!-- Bild-Container mit Text -->
+<div class="image-container">
+	<img src="../images/push_pull_legs_06.webp" alt="Bildbeschreibung">
+
+    <!-- Text über dem Bild -->
+    <div class="overlay-text">
+        Push-Pull-Legs
+    </div>
+</div>
+<br><br><br>
+<table border="0" class="tabelle">
+	<tr>
+		<td> <h1> Was ist das? </h1> </td>
+	</tr>
+	<tr> 
+		<td> Das Push-Pull-Legs-Training ist eine Methode des Krafttrainings, bei der die Trainingsbewegungen nach den Hauptbewegungsmustern und beteiligten Muskelgruppen aufgeteilt werden. </td>
+	</tr>
+	<tr>
+		<td> Push (Drücken): Übungen, bei denen Gewicht weg von dir gedrückt wird. Beispiele: Bankdrücken, Schulterdrücken, Trizepsdrücken. </td>
+	</tr>
+	<tr>
+		<td> Pull (Ziehen): Übungen, bei denen Gewicht zu dir hin gezogen wird. Beispiele: Klimmzüge, Rudern, Bizepscurls. </td>
+	</tr>
+	<tr>
+		<td> Legs (Beine): Übungen, die die Muskulatur der unteren Extremitäten trainieren. Beispiele: Kniebeugen, Ausfallschritte, Beinpressen. </td>
+	</tr>
+	<tr>
+		<td> <br> <h1> Was sind Deine Vorteile? </h1> </td>
+	</tr>
+	<tr>
+		<td> •	Effizienz und Gleichgewicht </td>
+	</tr>
+	<tr>
+		<td> •	Optimale Erholung </td>
+	</tr>
+	<tr>
+		<td> •	Fokus auf Hauptbewegungen </td>
+	</tr>
+	<tr>
+		<td> •	Flexibilität </td>
+	</tr>
+	<tr>
+		<td> •	Individuelle Anpassung </td>
+	</tr>
+	<tr>
+		<td> <br><br> Hier haben wir einen <span style="font-size: 1.5em; font-weight: bold;"> kostenlosen Trainingsplan für Dich </span> zusammengestellt: <br><br></td>
+	</tr>
+	<br><br>
+</table>
+		
+<!-- TABELLE PUSH -->
+
+<table border="0" class = "tabelle">
+	<colgroup>
+	 <col width="20%">
+	 <col width="35%">
+	 <col width="12%">
+	 <col width="13%">
+	 <col width="30%">
+	</colgroup>
+		<tr>
+			<td colspan="5" align="left" class="farbe"> 
+			<h1> Push </h1>
+			</td>
+		</tr>
+		<tr class = "farbe">
+			<td align="left"> Muskelgruppe </td>
+			<td align="left"> Übung </td>
+			<td align="left"> Sätze </td>
+			<td align="left"> Wiederholungen </td>
+			<td align="left"> Pause </td>
+		</tr>
+		<tr>
+			<td> Brust, Schultern, Trizeps </td>
+			<td> Flaches Bankdrücken (Kurzhanteln/Gerät) </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 8 - 12 </td>
+			<td> 1,5 - 2 min. </td>
+		</tr>	
+		<tr>
+			<td>  </td>
+			<td> Schräges Bankdrücken (Kurzhanteln/Gerät) </td>
+			<td align="middle"> 2 </td>
+			<td align="middle"> 10 - 12 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td>  </td>
+			<td> Seitheben mit Kurzhanteln  </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 8 - 10 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td>  </td>
+			<td> Schulterdrücken mit Kurzhanteln </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 8 - 10 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td>  </td>
+			<td> Trizep-Pushdowns </td>
+			<td align="middle"> 4 </td>
+			<td align="middle"> 12 - 15 </td>
+			<td> </td>
+		</tr>
+	</table>
+<br><br><br>
+	
+<!-- TABELLE PULL -->
+<table border="0" class = "tabelle">
+	<colgroup>
+	 <col width="20%">
+	 <col width="35%">
+	 <col width="12%">
+	 <col width="13%">
+	 <col width="30%">
+	</colgroup>
+		<tr>
+			<td colspan="5" align="left" class ="farbe"> 
+			<h1> Pull </h1>
+			</td>
+		</tr>
+		<tr class = "farbe">
+			<td align="left"> Muskelgruppe </td>
+			<td align="left"> Übung </td>
+			<td align="left"> Sätze </td>
+			<td align="left"> Wiederholungen </td>
+			<td align="left"> Pause </td>
+		</tr>
+		<tr>
+			<td> Rücken, Bizeps </td> 
+			<td> Kreuzheben (Langhantel) </td> 
+			<td align="middle"> 3 </td>
+			<td align="middle"> 5 - 8 </td>
+			<td> 1,5 - 2 min. </td>
+		</tr>	
+		<tr>
+			<td>  </td>
+			<td> Rudern weit, eng (Gerät) </td> 
+			<td align="middle"> 3 </td> 
+			<td align="middle"> 12 - 15 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td>  </td>
+			<td> Latziehen weit, eng (Gerät) </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 12 - 15 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td>  </td> 
+			<td> Unterer Rücken </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 12 - 15 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td>  </td> 
+			<td> Bizepscurls </td>
+			<td align="middle"> 4 </td>
+			<td align="middle"> 12 - 15 </td>
+			<td>  </td>
+		</tr>
+	</table>
+<br><br><br>
+
+<!-- TABELLE LEGS -->
+
+<table border="0" class = "tabelle">
+	<colgroup>
+	 <col width="20%">
+	 <col width="35%">
+	 <col width="12%">
+	 <col width="13%">
+	 <col width="30%">
+	</colgroup>
+		<tr>
+			<td colspan="5" align="left" class="farbe"> 
+			<h1> Legs </h1>
+			</td>
+		</tr>
+		<tr class = "farbe">
+			<td align="left"> Muskelgruppe </td>
+			<td align="left"> Übung </td>
+			<td align="left"> Sätze </td>
+			<td align="left"> Wiederholungen </td>
+			<td align="left"> Pause </td>
+		</tr>
+		<tr>
+			<td> Beine </td>
+			<td> Kniebeugen </td>
+			<td align="middle"> 2 </td>
+			<td align="middle"> 10 - 12 </td>
+			<td> 1,5 - 2 min. </td>
+		</tr>	
+		<tr>
+			<td>  </td>
+			<td> Beinpresse </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 6 - 8 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td>  </td>
+			<td> Beinstrecker </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 12 - 15 </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>  </td>
+			<td> Beinbeuger  </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 12 - 15 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> Adduktoren (Maschine) </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 10 - 12 </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td>  </td>
+			<td> Abduktoren (Maschine) </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 10 - 12 </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>  </td>
+			<td> Waden (Maschine) </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 8 - 10 </td>
+			<td> </td>
+		</tr>
+	</table>
+<br><br><br>
+</main>
+
+<footer>
+	<table class="footer-table">
+		<tr>
+			<td><a href="../Index/index.html" style="text-decoration: none;">&copy; 2023 FitTrackPro</a></td>
+			<td>
+				<button class="btn-login" onclick="location.href='../Register/register.html'">Jetzt registrieren</button>
+			</td>
+			<td>
+				<a href="../Logoff/logoff.php">Ausloggen</a></br>
+				<a href="#">Impressum</a><br>
+				<a href="#">Datenschutz</a>
+			</td>
+			<td>
+				<div>
+					<a href="#"><img src="../images/instagram-icon.png"></a>
+					<a href="#"><img src="../images/youtube-icon.png"></a>
+					<a href="#"><img src="../images/facebook-icon.png"></a>
+				</div>
+			</td>
+		</tr>
+	</table>
+</footer>
+</body>
+</html>

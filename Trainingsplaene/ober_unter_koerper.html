@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>FitTrackPro</title>
+    <link rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="../Index/index.html"><img src="../images/logo.png" style="width: 120px; height: 72px;"></a>
+        <ul class="nav-rechts">
+            <li class="nav-item dropdown"><a href="../Trainingsplaene/trainingsplaene.html" style="color: white; text-decoration: none;" onmouseover="this.style.color='rgb(170,202,215)';" onmouseleave="this.style.color='white';">
+            Trainingspläne</a>
+            <div class="dropdown-content">
+                <a href="../Trainingsplaene/ober_unter_koerper.html">Ober-Unter-Körper</a>
+                <a href="../Trainingsplaene/push_pull_legs.html">Push-Pull-Legs</a>
+                <a href="../Trainingsplaene/arnold_split.html">Arnold Split</a>
+            </div>
+            </li>
+            <a href="../Kalorienrechner/kalorienrechner.html"><li class="nav-item">Kalorienrechner</li></a>
+            <a href="../Ernaehrungsrechner/ernaehrungstabelle.html"><li class="nav-item">Ernährungstagebuch</li></a>
+            <a href="../Dashboard/dashboard.html"><li class="nav-item">Dashboard</li></a>
+            <li><button class="btn-login" style="margin-top: 17px;" onclick="location.href='../Login/login.html'">Log In</button></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<br><br><br>
+<!-- Bild-Container mit Text -->
+<div class="image-container">
+	<img src="../images/ober_unter_koerper_01.webp" alt="Bildbeschreibung">
+
+    <!-- Text über dem Bild -->
+    <div class="overlay-text">
+        Ober-Unter-Körper
+    </div>
+</div>
+<br><br><br>
+<table border="0" class="tabelle">
+	<tr>
+		<td> <h1> Was ist das? </h1> </td>
+	</tr>
+	<tr> 
+		<td> Ein Ober-Unterkörper-Split beim Krafttraining ist eine Trainingsmethode, bei der die Muskeln des Oberkörpers an einem Tag und die Muskeln des Unterkörpers an einem anderen Tag trainiert werden. Ein Ober-Unterkörper-Split ist eine weit verbreitete und effektive Methode, die von vielen Kraftsportlern erfolgreich angewendet wird. </td>
+	</tr>
+	<tr>
+		<td> <br> <h1> Was sind Deine Vorteile? </h1> </td>
+	</tr>
+	<tr>
+		<td> •	Effizienz und Zeitersparnis </td>
+	</tr>
+	<tr>
+		<td> •	Optimale Erholung </td>
+	</tr>
+	<tr>
+		<td> •	Höhere Trainingsfrequenz </td>
+	</tr>
+	<tr>
+		<td> •	Bessere Fokussierung </td>
+	</tr>
+	<tr>
+		<td> •	Variabilität im Training </td>
+	</tr>
+	<tr>
+		<td> <br><br> Hier haben wir einen <span style="font-size: 1.5em; font-weight: bold;"> kostenlosen Trainingsplan für Dich </span> zusammengestellt: </td>
+	</tr>
+</table>
+<br><br>
+
+	
+<!-- TABELLE OBERKÖRPER -->
+<table border="0" class = "tabelle">
+	<colgroup>
+	 <col width="20%">
+	 <col width="35%">
+	 <col width="12%">
+	 <col width="13%">
+	 <col width="30%">
+	</colgroup>
+		<tr>
+			<td colspan="5"  class ="farbe"> 
+			<h1> Oberkörper </h1>
+			</td>
+		</tr>
+		<tr class = "farbe">
+			<td > Muskelgruppe </td>
+			<td> Übung </td>
+			<td > Sätze </td>
+			<td > Wiederholungen </td>
+			<td > Pause </td>
+		</tr>
+		<tr>
+			<td> Rücken </td> 
+			<td> Breite Klimmzüge 
+				 oder 
+				 Breiter Latzug (Kabelturm) </td> 
+			<td align="middle"> 3 </td>
+			<td align="middle"> 10 </td>
+			<td> 1,5 - 2 min. </td>
+		</tr>	
+		<tr>
+			<td> Unterer Rücken </td>
+			<td> Vorgebeugtes Rudern (Langhantel) 
+				 oder 
+				 Breites Rudern (Kabelzug) </td> 
+			<td align="middle"> 3 </td> 
+			<td align="middle"> 10 </td>
+			<td> 1,5 - 2 min. </td>
+		</tr>
+		<tr>
+			<td> Brust </td>
+			<td> Bankdrücken (Langhantel) 
+				 oder 
+				 Brustpresse (Gerät) </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 10 </td>
+			<td> 2 min. </td>
+		</tr>
+		<tr>
+			<td> Schulter </td>
+			<td> Seitheben (Kurzhanteln) 
+				 oder 
+				 Seitenheben (Kabelzug) </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 12-15 </td>
+			<td> 1,5 - 2 min. </td>
+		</tr>
+		<tr>
+			<td> Brust </td> 
+			<td> Butterfly (Gerät) 
+				 oder 
+				 Butterfly (Kurzhanteln) </td>
+			<td align="middle"> 2 </td>
+			<td align="middle"> 12-15 </td>
+			<td> 1,5 - 2 min. </td>
+		</tr>
+		<tr>
+			<td> Hintere Schulter </td>
+			<td> Umgekehrter Butterfly (Gerät) 
+				 oder 
+				 Vorgebeugtes Seitheben (Kurzhanteln) </td> 
+			<td align="middle"> 2 </td>
+			<td align="middle"> 12-15 </td>
+			<td> 1 - 1,5 min. </td>
+		</tr>
+		<tr>
+			<td> Trizeps </td>
+			<td> Trizeps-Drücken (Seil am Kabelzug) 
+				 oder 
+				 Trizeps-Drücken liegend (SZ-Stange) </td> 
+			<td align="middle"> 2 </td>
+			<td align="middle"> 15-20 </td>
+			<td> 1 - 1,5 min. </td>
+		</tr>
+		<tr>
+			<td> Bizeps </td>
+			<td> Hammer-Curls (Kurzhantel) 
+				 oder 
+				 Curls (SZ-Stange) </td>
+			<td align="middle"> 2 </td>
+			<td align="middle"> 12-15 </td>
+			<td> 1 - 1,5 min. </td>
+		</tr>
+	</table>
+<br><br><br>
+
+<!-- TABELLE UNTERKÖRPER -->
+
+<table border="0" class = "tabelle">
+	<colgroup>
+	 <col width="20%">
+	 <col width="35%">
+	 <col width="12%">
+	 <col width="13%">
+	 <col width="30%">
+	</colgroup>
+		<tr>
+			<td colspan="5"  class="farbe"> 
+			<h1> Unterkörper </h1>
+			</td>
+		</tr>
+		<tr class = "farbe">
+			<td > Muskelgruppe </td>
+			<td > Übung </td>
+			<td > Sätze </td>
+			<td > Wiederholungen </td>
+			<td > Pause </td>
+		</tr>
+		<tr>
+			<td> Beine </td>
+			<td> Kniebeugen 
+				 oder
+				 Beinpresse </td>
+			<td align="middle"> 4 </td>
+			<td align="middle"> 8-10 </td>
+			<td> 2 - 3 min. </td>
+		</tr>	
+		<tr>
+			<td> Unterer Rücken </td>
+			<td> Kreuzheben 
+				 oder 
+				 Hyperextentions </td>
+			<td align="middle"> 4 </td>
+			<td align="middle"> 10-12 </td>
+			<td> 2 min. </td>
+		</tr>
+		<tr>
+			<td> Beine </td>
+			<td> Ausfallschritte statisch (Kurzhantel)
+				 oder 
+				 Ausfallschritte gehend (Kurzhantel)</td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 20 </td>
+			<td> 1 - 1,5 min. </td>
+		</tr>
+		<tr>
+			<td> Beine </td>
+			<td> Beinbeuger (Gerät)
+				 oder 
+				 Hip-Thrusters (Langhantel)  </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 10-12 </td>
+			<td> 1 - 1,5 min. </td>
+		</tr>
+		<tr>
+			<td> Beine/Po </td>
+			<td> Abduktions-Gerät 
+				 oder 
+				 Adduktions-Gerät </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 10-12 </td>
+			<td> 1 - 1,5 min. </td>
+		</tr>
+		<tr>
+			<td> Waden </td>
+			<td> Wadenheben stehend 
+				 oder 
+				 Wadenheben sitzend </td>
+			<td align="middle"> 3 </td>
+			<td align="middle"> 12-15 </td>
+			<td> 1 min. </td>
+		</tr>
+		<tr>
+			<td> Bauch </td>
+			<td> Beinheben 
+				 oder 
+				 Crunches </td>
+			<td align="middle"> 4 </td>
+			<td align="middle"> 15-20 </td>
+			<td> 1 min. </td>
+		</tr>
+	</table>
+<br><br><br>
+</main>
+
+<footer>
+	<table class="footer-table">
+		<tr>
+			<td><a href="../Index/index.html" style="text-decoration: none;">&copy; 2023 FitTrackPro</a></td>
+			<td>
+				<button class="btn-login" onclick="location.href='../Register/register.html'">Jetzt registrieren</button>
+			</td>
+			<td>
+				<a href="../Logoff/logoff.php">Ausloggen</a></br>
+				<a href="#">Impressum</a><br>
+				<a href="#">Datenschutz</a>
+			</td>
+			<td>
+				<div>
+					<a href="#"><img src="../images/instagram-icon.png"></a>
+					<a href="#"><img src="../images/youtube-icon.png"></a>
+					<a href="#"><img src="../images/facebook-icon.png"></a>
+				</div>
+			</td>
+		</tr>
+	</table>
+</footer>
+</body>
+</html>

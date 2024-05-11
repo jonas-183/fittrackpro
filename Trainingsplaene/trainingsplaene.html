@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>FitTrackPro</title>
+    <link rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="../Index/index.html"><img src="../images/logo.png" style="width: 120px; height: 72px;"></a>
+        <ul class="nav-rechts">
+            <li class="nav-item dropdown"><a href="../Trainingsplaene/trainingsplaene.html" style="color: white; text-decoration: none;" onmouseover="this.style.color='rgb(170,202,215)';" onmouseleave="this.style.color='white';">
+            Trainingspläne</a>
+            <div class="dropdown-content">
+                <a href="../Trainingsplaene/ober_unter_koerper.html">Ober-Unter-Körper</a>
+                <a href="../Trainingsplaene/push_pull_legs.html">Push-Pull-Legs</a>
+                <a href="../Trainingsplaene/arnold_split.html">Arnold Split</a>
+            </div>
+            </li>
+            <a href="../Kalorienrechner/kalorienrechner.html"><li class="nav-item">Kalorienrechner</li></a>
+            <a href="../Ernaehrungsrechner/ernaehrungstabelle.html"><li class="nav-item">Ernährungstagebuch</li></a>
+            <a href="../Dashboard/dashboard.html"><li class="nav-item">Dashboard</li></a>
+            <li><button class="btn-login" style="margin-top: 17px;" onclick="location.href='../Login/login.html'">Log In</button></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<br><br>
+	<table class="tabelle">
+		<colgroup>
+		<col width="50%">
+		<col width="50%">
+		</colgroup>
+						
+		<!-- erste Zeile, erste Spalte -->
+		<tr>
+		<td>
+			<div class="div-container">
+				<div class="bild-container">
+					<a href="ober_unter_koerper.html">
+					<img src="../images/ober_unter_koerper_01.webp" alt="ober_unter_koerper">
+					</a>
+				<div class="text-overlay">Ober-Unter-Körper</div>
+				</div>
+			</div>
+		</td>
+		<!-- erste Zeile, zweite Spalte -->
+		<td>
+			<div class="div-container">
+				<p> Durch gezielte Übungen für Oberkörper und Beine erreichst du nicht nur eine harmonische Muskulatur, sondern förderst auch Kraft und Ausdauer. </p>
+			</div>
+		</td>
+		</tr>
+		<!-- zweite Zeile, erste Spalte -->
+		<tr>
+		<td>
+			<div class="div-container">
+				<p>Eine effektive Methode, um Brust, Rücken, Schultern und Beine gezielt zu trainieren! Maximiere Muskelentwicklung und Definition für einen starken und ausgewogenen Körper. </p>
+			</div>
+		</td>
+		<!-- erste Zeile, zweite Spalte -->
+		<td>
+			<div class="div-container">
+				<div class="bild-container">
+				<a href="push_pull_legs.html">
+					<img src="../images/push_pull_legs_06.webp" alt="push_pull_legs">
+				</a>
+				<div class="text-overlay">Push-Pull-Legs</div>
+				</div>
+			</div>
+		</td>
+		</tr>
+		<!-- dritte Zeile, erste Spalte -->
+		<tr>
+		<td>
+			<div class="div-container">
+				<div class="bild-container">
+					<a href="arnold_split.html">
+					<img src="../images/arnold_split_03.jpg" alt="arnold_split">
+					</a>
+				<div class="text-overlay"> Arnold Split</div>
+				</div>
+			</div>
+		</td>
+		<!-- dritte Zeile, zweite Spalte -->             
+		<td>
+			<div class="div-container">
+				<p> Trainiere Brust, Rücken, Schultern, Arme und Beine an an verschiedenen Tagen und erreiche eine umfassende Fitnessentwicklung. Wähle die Trainingsweise des Champions für kraftvolle Muskeln und eine ausgewogene Fitness. </p>
+			</div>
+		</td>
+		</tr>
+	</table>
+</main>
+
+<footer>
+	<table class="footer-table">
+		<tr>
+			<td><a href="../Index/index.html" style="text-decoration: none;">&copy; 2023 FitTrackPro</a></td>
+			<td>
+				<button class="btn-login" onclick="location.href='../Register/register.html'">Jetzt registrieren</button>
+			</td>
+			<td>
+				<a href="../Logoff/logoff.php">Ausloggen</a></br>
+				<a href="#">Impressum</a><br>
+				<a href="#">Datenschutz</a>
+			</td>
+			<td>
+				<div>
+					<a href="#"><img src="../images/instagram-icon.png"></a>
+					<a href="#"><img src="../images/youtube-icon.png"></a>
+					<a href="#"><img src="../images/facebook-icon.png"></a>
+				</div>
+			</td>
+		</tr>
+	</table>
+</footer>
+</body>
+</html>

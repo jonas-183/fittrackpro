@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>FitTrackPro</title>
+    <link rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<main>
+  <body>
+    <div class="calculator" style="width: 300px; margin-top: 110px; margin-bottom: 110px;">
+      <form action="login.php" method="post">
+          <h2 style="margin-bottom: 30px;"> Anmelden</h2>
+          <label> Benutzername</label>
+          <input name="user" type="text">
+          <label> Passwort</label>
+          <input name="passwd" type="password"> <br/>
+          <input class="absenden" type="submit">
+      </form>
+      <a style="color: white" href="../Register/register.html"> <p style="margin-top: 30px; color: white">Oder registriere dich jetzt!</p></a>
+      <a style="color: white" href="../Logoff/logoff.php"> <p style="margin-top: 30px; color: white">Ausloggen</p></a>
+    </div>
+</main>
+
+<footer>
+    <table class="footer-table">
+        <tr>
+            <td><a href="../Index/index.html" style="text-decoration: none;">&copy; 2023 FitTrackPro</a></td>
+            <td>
+                <button class="btn-login" onclick="location.href='../Register/register.html'">Jetzt registrieren</button>
+            </td>
+            <td>
+                <a href="../Logoff/logoff.php">Ausloggen</a></br>
+                <a href="#">Impressum</a><br>
+                <a href="#">Datenschutz</a>
+            </td>
+            <td>
+                <div>
+                    <a href="#"><img src="../images/instagram-icon.png"></a>
+                    <a href="#"><img src="../images/youtube-icon.png"></a>
+                    <a href="#"><img src="../images/facebook-icon.png"></a>
+                </div>
+            </td>
+        </tr>
+    </table>
+  </footer>
+  </body>
+</html>
